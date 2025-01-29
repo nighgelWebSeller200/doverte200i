@@ -124,56 +124,6 @@
             top: 20px;
         }
     
-        .bar {
-            width: 25px;
-            height: 3px;
-            background-color: lavender;
-            margin: 4px 0;
-        }
-    
-        @media (max-width: 600px) {
-            .navbar {
-                display: none;
-            }
-    
-            .hamburger-menu {
-                display: flex;
-            }
-    
-            .hamburger-nav {
-                display: block;
-            }
-        }
-    
-        @media (max-width: 1150px) {
-            .navbar {
-                display: none;
-            }
-        
-            .hamburger-menu {
-                display: flex;
-            }
-        
-            .hamburger-nav {
-                display: block;
-            }
-    
-        }
-        .hamburger-nav li a {
-            color: lavender;
-            text-decoration: none;
-            padding: 2px;
-            font-size: 20px;
-            }
-            
-            .hamburger-nav li a.active,
-            .hamburger-nav li a:hover {
-            color: purple;
-            background-color: lavenderblush; /* Light green */
-            border-radius: 5px;
-            transition: 0.4s;
-        }
-    
         .tabs {
             display: flex;
             justify-content: center;
